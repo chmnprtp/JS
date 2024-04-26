@@ -13,5 +13,37 @@ let isLoggedIn = 0 // 1=true, ""=false, "cham"=true, null=false, undefined=false
 
 let someNumber = 22 // 22=22, null=null, undefined=undefined, true=true
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+
+//****************************Operations***********************************
+let value = 3
+let negValue = -2
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(3-2);
+// console.log(3*2);
+// console.log(3/2);
+// console.log(3%2);
+// console.log(3**2);
+
+let str1 = "hello"
+let str2 = " Chaman"
+let str3 = str1 + str2
+// console.log(str3); // hello Chaman
+
+// console.log("1" + 2);   //12
+// console.log(1 + "2");   //12
+// console.log("1" + 2 + 2);//122
+// console.log(1 + 2 + "2");//32
+
+// console.log(true); //true
+// console.log(+true);//1
+// console.log(+"");//0
+// console.log(+false);//0
+
+
+
