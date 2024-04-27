@@ -33,9 +33,33 @@ const myobj = {
 
 const myfun = function()
 {
-    console.log("hi chham");
+    // console.log("hi chham");
 }
 
-console.log(typeof flower);
-console.log(typeof myobj);
-console.log(typeof myfun);
+// console.log(typeof flower);
+// console.log(typeof myobj);
+// console.log(typeof myfun);
+
+
+
+
+//***************************MEMORY*******************************
+
+// Stack(Primitive)- Copy    Heap(Non Primitive)-Reference
+
+// let one = 1;
+// let two = one;
+// two = 2;
+// console.log(one);
+// console.log(two);
+
+let userOne ={
+    name:"chaman",
+    age:26
+}
+
+let userTwo = userOne;
+
+userTwo.age = 27;
+// console.log(userOne.age);
+// console.log(userTwo.age);
