@@ -31,8 +31,53 @@ sayMyName //reference
 // }
 // console.log(justLoggedIn("Chaman"))
 
-function justLoggedIn(username="chaman") //when you don't pass any value as arguments
-{
-    return `${username} just logged in`
+// function justLoggedIn(username="chaman") //when you don't pass any value as arguments
+// {
+//     return `${username} just logged in`
+// }
+// console.log(justLoggedIn("rajat"))
+
+
+// function calculateCartPrice(...num1) //rest operator
+// {
+//     return num1
+// }
+// console.log(calculateCartPrice(200,100,200))
+
+
+// function calculateCartPrice(num1,num2,...num3) //rest operator
+// {
+//     return num3
+// }
+// console.log(calculateCartPrice(200,100,200,490))
+
+
+User = {
+    name:"Chaman",
+    price: 399
 }
-console.log(justLoggedIn("rajat"))
+function handleObject(anyObject)
+{
+     console.log(`user name is ${anyObject.name} and price is ${anyObject.price}`);
+}
+//handleObject(User)
+// handleObject({
+//     username:"rajat",
+//     price:45
+// })
+
+
+// cost = mynewArr =[23,45,6,76,23]
+// function returnSecondValue(getArray)
+// {
+//     return getArray[1]
+// }
+// console.log(returnSecondValue(mynewArr))
+
+
+
+function returnSecondValue(getArray)
+{
+    return getArray[1]
+}
+console.log(returnSecondValue([23,45,6,76,23]))
