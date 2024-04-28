@@ -1,4 +1,6 @@
 //Singelton
+//const my obj = Object()
+
 
 //Object literals
 
@@ -32,7 +34,7 @@ User.greeting = function()
 
 User.greetingTwo = function()
 {
-    console.log(`This is object key . ${this.age}`);
+    console.log(`This is object key . ${this.age}`); // using same object key value
 }
 
 User.greetingTwo()
