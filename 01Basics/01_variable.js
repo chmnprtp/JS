@@ -1,5 +1,5 @@
 // Difference Between text file and js file is that js has predefine keyword
-
+// loosely typed
 //console.log(accountEmail)     // Cannot access 'accountEmail' before initialization
 //console.log(accountID)        // Cannot access 'accountEmail' before initialization
 console.log(accountPassword)    // due to hoisting result will be undefined
