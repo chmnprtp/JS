@@ -1,7 +1,7 @@
 function x()
 {
     var a = 31;
-    functio y()
+    function y()
     {
         console.log(a);
     }
